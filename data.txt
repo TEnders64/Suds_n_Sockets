@@ -1,0 +1,267 @@
+features: 
+Twitter feed {
+	need all breweries Twitter handles
+}
+Google Maps finding all breweries and directions to nearest brewery{
+	need to import all breweries addresses
+}
+Save user info (Passport) {
+	handle:
+	number of beers:
+	number of breweries:
+	badges? (fluff)
+}
+Sockets-related {
+	seeing updates from other users,
+	chat room/message board
+}
+
+breweries:
+
+@pikebrewing
+@halesales
+@reubensbrews
+@HilliardsBeer
+@GhostfishBrewCO
+@ElysianBrewing
+@nakedcitybeer
+@fremontbrewing
+@Redhook_Brewery
+@LazyBoyBrewing
+@peddlerbrewing
+@maritimepacific
+@twobeersbrewing
+@schoonerexact
+@georgetownbeer
+
+
+
+BELLEVUE BREWING COMPANY
+1820 130th Avenue N.E. Suite 2, Bellevue
+map | website | 425.497.8686
+BIG AL BREWING
+9832 14th Ave. SW, Seattle
+map | website | 206-453-4487
+BIG BLOCK BREWING
+24859 NE 2nd Ct, Sammamish
+map | website
+BIG TIME BREWING
+4133 University Ave. NE, Seattle
+map | website | 206-545-4509
+BLACK RAVEN BREWING
+14679 NE 95th St., Redmond
+map | website | 425-881-3020
+BLUEBIRD MICROCREAMERY AND BREWERY
+7400 Greenwood Ave N, Seattle
+map | website | 206-588-1079
+BURDICK BREWERY
+8103 8th Ave S. Unit 205., Seattle
+map | website | 206-397-3839
+BUSHNELL CRAFT BREWING
+8461 164th Ave NE, Redmond
+map | website | 425-702-9743
+CHAINLINE BREWING COMPANY
+503 6th St S, Kirkland
+map | website | (425) 242-0923
+COUNTERBALANCE BREWING CO
+503 S Michigan St, Ste B, Seattle
+map | website | (206) 453-3615
+DRU BRU
+10 Pass Life Way, Snoqualmie Pass
+map | website | 425-434-0700
+ELLIOTT BAY BREWING - BURIEN
+255 SW 152nd St., Burien
+map | website | 206-246-4211
+ELLIOTT BAY BREWING - LAKE CITY
+12537 Lake City Way Northeast, Seattle
+map | website | 206-365-2337
+ELLIOTT BAY BREWING - W. SEATTLE
+4720 California Ave. SW, Seattle
+map | website | 206-932-8695
+ELYSIAN BREWING - CAPITOL HILL
+1221 E Pike St., Seattle
+map | website | 206-860-1920
+ELYSIAN BREWING - FIELDS
+542 1st Ave. S, Seattle
+map | website | 206-382-4498
+ELYSIAN BREWING -GEORGETOWN
+5510 Airport Way S. , Seattle
+map | website | 206.767.0210
+ELYSIAN BREWING -TANGLETOWN
+2106 N 55th St., Seattle
+map | website | 206-547-5929
+EPIC ALES
+3201 First Ave. S, Suite 104, Seattle
+map | website | 206-351-3637
+FISH BREWING TAPROOM-WOODINVILLE
+14701 148th Ave NE , Woodinville
+map | website | (425) 949-5787
+FLYCASTER BREWING
+12815 124th St Suite I, Kirkland
+map | website | 206-963-6626
+FLYING BIKE COOPERATIVE BREWERY
+8570 Greenwood Ave N, Seattle
+map | website | (206) 428-7709
+FLYING LION BREWING
+5041 Rainier Ave S, Seattle
+map | website | 206-659-9912
+FREMONT BREWING
+3409 Woodland Pk Ave. N, Seattle
+map | website | 206-420-2407
+GEAUX BREWING
+12031 Northup Way NE, #203, Bellevue
+map | website | 425-505-8765
+GEORGETOWN BREWING
+5200 Denver Ave. S, Seattle
+map | website | 206-766-8055
+GHOSTFISH BREWING
+29402 1st Ave S, Seattle
+map | website | 206-397-3898
+GORDON BIERSCH BREWERY RESTARAUNT
+600 Pine St., suite 401, Seattle
+map | website | 206-405-4205
+HALE'S ALES
+4301 Leary Way NW, Seattle
+map | website | 206-706-1544
+HELLBENT BREWING COMPANY
+13035 Lake City Way NE, Seattle
+map | website
+HERBERT B. FRIENDLY BREWING
+527 Wells Ave S, Renton
+map | website | 425-243-4372
+HI-FI BREWING
+14950 NE 95th St., Redmond
+map | website | 503-610-2752
+HILLIARD'S BEER
+1550 NW 49th St, Seattle
+map | website | 206-465-0078
+HOLY MOUNTAIN BREWING
+1421 Elliott Ave W, Seattle
+map | website
+ISSAQUAH BREWHOUSE
+35 W Sunset Way, Suite C, Issaquah
+map | website | 425-557-1911
+LANTERN BREWING
+938 N. 95th Street, Seattle
+map | website | 206-729-5350
+LOWERCASE BREWING
+8103 8th Ave. S, Seattle
+map | website | 206-258-4987
+LUCKY ENVELOPE BREWING
+907 NW 50th Street, Seattle
+map | website | (206) 659-4075
+LUMBERJACK BREWING CO.
+21830 284th AVE SE, Maple Valley
+map | website | 425-432-0121
+MAC AND JACKS BREWING
+17825 NE 65th, Suite B-10, Redmond
+map | website | 425-558-9697
+MACHINE HOUSE BREWERY
+5840 Airport Way S, Seattle
+map | website | 206-402-6025
+MARITIME PACIFIC BREWING
+1111 NW Ballard Way, Seattle
+map | website | 206-782-6181
+MCMENAMINS - ROY STREET
+200 Roy St., Seattle
+map | website | 206-285-4722
+MCMENAMINS - SIX ARMS
+300 E Pike St., Seattle
+map | website | 206-223-1698
+NAKED CITY BREWERY AND TAPROOM
+8564 Greenwood Ave. N, Seattle
+map | website | 206-838-6299
+NORTHWEST PEAKS BREWERY
+4912 17th Ave NW, Seattle
+map | website | 206-853-0525
+ODIN BREWING
+402 Baker Blvd, Tukwila
+map | website | 206-762-3909
+OUTER PLANET CRAFT BREWING
+1812 12th Avenue, Suite 100, Seattle
+map | website | (206) 763-7000
+OUTLANDER BREWERY AND PUB
+225 N. 36th St., Seattle
+map | website | 206-486-4088
+PEDDLER BREWING
+1514 NW Leary Way, Seattle
+map | website | 360-362-0002
+PIKE BREWING
+1415 1st Ave., Seattle
+map | website | 206-622-6044
+POPULUXE BREWING
+826 NW 49th St, Seattle
+map | website | 206-706-3400
+POSTDOC BREWING
+17625 NE 65th St, #100, Redmond
+map | website | (425) 658-4963
+PYRAMID BREWERIES
+91 S Royal Brougham Way, Seattle
+map | website | 206-682-3377
+RAM BREWING - KENT
+512 Ramsay Way, Ste 4-103, Kent
+map | website | 253-520-3881
+RAM BREWING - NORTHGATE
+4730 University Place NE, Seattle
+map | website | 206-364-8000
+RAM BREWING - UVILLAGE
+4730 University Place NE, Seattle
+map | website | 206-525-3565
+RAVENNA BREWING COMPANY
+2605R NE 55th St, Seattle
+map | website | 323-514-6288
+REUBEN�S BREWS
+5010 14th Ave NW, Seattle
+map | website | 206-753-9538
+ROCK BOTTOM BREWING - SEATTLE
+1333 5th Ave., Seattle
+map | website | 206-623-3070
+ROOFTOP BREWING
+1220 W. Nickerson St., Seattle
+map | website | 206-276-4091
+SCHOONER EXACT BREWING
+3901 1st Ave S, Seattle
+map | website | 206-432-9734
+SEAPINE BREWING COMPANY
+3828 4th Ave. S, #2, Seattle
+map | website | 206-682-7985
+SNOQUALMIE FALLS BREWING
+8032 Falls Ave. SE, Snoqualmie
+map | website | 425-831-2357
+SOOS CREEK BREWING
+Covington, WA, Covington
+map | website | 253-237-2739
+SPINNAKER BAY BREWERY
+5718 Rainier Ave S, Seattle
+map | website | 206-725-2337
+STANDARD BREWING
+2504 S Jackson St, Seattle
+map | website | 206-535-1584
+STOUP BREWING
+1108 NW 52nd St, Seattle
+map | website | (206) 457-5524
+STRONG ARM BREWING
+14037 SE 192nd St., Renton
+map | website | 425-275-7413
+TIN DOG BREWING
+309 S. Cloverdale Street, Seattle
+map | website
+TRIPLE R BREWING
+3835 Corliss Ave N, Seattle
+map | website
+TWO BEERS BREWING
+4700 Ohio Ave S, Unit A, Seattle
+map | website | 206-762-0490
+URBAN FAMILY BREWING COMPANY
+4441 26th Ave W Suite A, Seattle
+map | website | 206-371-3411
+WEST SEATTLE BREWING
+4414 Fauntleroy Way SW, Seattle
+map | website | 206-861-6769
+WET HEAD BREWING
+513 A St NE, Auburn
+map | website | (253) 951-6911
+
+DOT key:
+
+2d65bb45-3efb-46ad-b581-2268a64b1bcf

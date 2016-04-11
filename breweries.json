@@ -1,0 +1,33 @@
+{
+	"breweries": [
+		{
+			"name": "Airways Brewing",
+			"location": "6644 S 196th St., Kent, WA",
+			"phone": "253-200-1707",
+			"twitter": "@AirwaysBrewing",
+			"url": "http://www.airwaysbrewing.com"
+		},
+		{
+			"name": "Bad Jimmy's Brewing",
+			"location": "4358 Leary Way NW, Seattle, WA",
+			"phone": "206-789-1548",
+			"twitter": "@BadJimmys",
+			"url": "http://www.badjimmysbrewingco.com"
+		},
+		{
+			"name": "Bavaria Brewing",
+			"location": "819 212th Ave NE, Sammamish, WA",
+			"phone": "206-304-4902",
+			"twitter": null,
+			"url": "http://www.bavariabrewing.com"
+		},
+		{
+			"name": "Bellevue Brewing Company",
+			"location": "1820 130th Ave NE, Ste 2, Bellevue, WA",
+			"phone": "425-497-8686",
+			"twitter": "@BellevueBrewing",
+			"url": "http://www.bellevuebrewing.com"
+		}	
+	]
+
+}

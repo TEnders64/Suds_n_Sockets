@@ -1,0 +1,133 @@
+<html ng-app="myApp">
+<head>
+	<title>Seattle Suds and Sockets</title>
+	<script src="assets/angular/angular.js"></script>
+	<script src="assets/angular/angular-routes.js"></script>
+	<script src="assets/jquery/jquery-1.11.3.min.js"></script>
+	<script src="assets/jquery/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="/socket.io/socket.io.js"></script>
+	<script type="text/javascript" src="assets/angular-sockets/socket.js"></script>
+	<script src="js/routes.angular.js"></script>
+
+	<!-- Angular Scripts -->
+	<script src="js/users.angular.js"></script>
+	<script src="js/breweries.angular.js"></script>
+	<script src="js/imbibes.angular.js"></script>
+	<!-- Materialize -->
+	<link rel="stylesheet" href="assets/materialize/css/materialize.min.css" type="text/css">
+	<script src="assets/materialize/js/materialize.min.js"></script>
+	<!-- Third Party -->
+	<script src="https://maps.googleapis.com/maps/api/js?v=3&key=AIzaSyB2a6yPTtz9dMjpVlooC_dPP0fBIh1Dod4"></script>
+    <!-- Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<script type="text/javascript">
+		$(document).ready(function(){
+			var map;
+
+			function initialize(){
+				var mapOptions = {
+					center: new google.maps.LatLng(47.660535, -122.366414),
+					zoom: 13,
+					mapTypeId: google.maps.MapTypeId.ROADMAP,
+					panControl: false
+				}
+				map = new google.maps.Map(document.getElementById('map'), mapOptions);
+			}
+
+			$('.row').on('click', '#findMe', function (){
+				if (navigator.geolocation){
+					navigator.geolocation.getCurrentPosition(getPosition);
+				}else{
+					console.log("Geolocation Not Supported By Browser");
+				}
+			})
+			var coords = {};
+
+			function getPosition(pos){
+				//console.log(pos);
+				$('#mapHolder').animate({opacity: 0.7}, 250, function(){
+					$(this).animate({opacity: 1}, 250);
+					$('#mapTitle').text('Nearest Brewery');
+				});
+
+				coords.point = new google.maps.LatLng(pos.coords.latitude, pos.coords.longitude);
+				var marker = new google.maps.Marker({
+					position: coords.point,
+					title: 'USER INFO',
+					icon: '/images/logomap.png'
+				});
+
+				marker.setMap(map);
+				map.setOptions({
+					center: marker.position,
+					zoom: 13
+				});
+			}
+
+			google.maps.event.addDomListener(window, 'load', initialize);
+		});
+	</script>
+	<style>
+	.card{
+		display: inline-block;
+		vertical-align: top;
+	}
+	.card .card-image .card-title{
+		padding: 5px;
+	}
+	body{
+		background-image: url('images/BnW.jpg');
+		background-size: cover;
+	}
+	h4{
+		margin-top: 0px;
+	}
+	#continueButton, #addReview{
+		margin-left: 25%;
+	}
+	.beercomments{
+		height: 75px;
+	}
+	.input-field{
+		padding: 0px 12px;
+	}
+	#mapHolder{
+		width: 100%;
+	}
+	#login{
+		opacity: 0.9;
+	}
+	</style>
+</head>
+<body>
+	<div class="row">
+		<nav>
+		    <div class="nav-wrapper brown">
+		      	<ul>
+		      		<li><a href="#/"><img src="/images/logo.png" width="64px" height="64px"></a></li>
+		      		<li class="thin"><a href="#/" style="font-size: 2rem">Seattle Suds and Sockets</a></li>
+		      	</ul>
+		    </div>
+	  	</nav>
+  	</div>
+	<div class="row">
+		<div class="col l2 thin">
+			<a class="col l10 push-l1 waves-effect amber darken-4 waves-light btn" href="#/visit"><i class="small material-icons right">store</i>Log Brewery Visit</a>
+			<a class="col l10 push-l1 waves-effect amber darken-4 waves-light btn"><i class="small material-icons right">class</i>Your Passport</a>
+			<!-- <a href="#/beerBuddy" class="col l10 push-l1 waves-effect amber darken-4 waves-light btn"><i class="small material-icons right">person_pin</i>Add Beer Buddy</a> -->
+			<a id="findMe" class="col l10 push-l1 waves-effect amber darken-4 waves-light btn"><i class="small material-icons right">my_location</i>Nearest Brewery</a>
+		</div>
+		<div ng-view="" class="col l7">
+			<!-- dynamic angular content -->
+		</div>
+		<div class="col l3">
+			<div id="mapHolder" class="card blue-grey darken-1 hoverable">
+				<div class="card-content amber-text darken-4">
+					<span id="mapTitle" class="card-title condensed light">Brewery Map</span>
+					<div id="map" style="height: 40%; width: 100%"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

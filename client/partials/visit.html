@@ -1,0 +1,35 @@
+<h4 class="center-align white-text">Log a Brewery Visit</h4>
+<div class="divider"></div>
+<div class="row white lighten-1">
+	<div class="input-field col l6">
+		<input id="brewery" type="text" ng-model="BrewsCtrl.brewery" required/>
+		<label for="brewery">Brewery</label>
+	</div>
+	<div class="input-field col l6">
+		<input id="beers" type="text" ng-model="BrewsCtrl.input_beers" required/>
+		<label for="beers">Beer(s) Sampled (Comma-Separated)</label>
+	</div>
+</div>
+<div class="row" ng-hide="BrewsCtrl.veiled">
+	<button id="continueButton" class="col l6 offset-l3 amber darken-4 waves-effect waves-light btn" ng-click="BrewsCtrl.breakout()">Continue</button>
+</div>
+<h4 class="center-align white-text" ng-hide="!BrewsCtrl.veiledBeers">Beer Commentary</h4>
+<div class="row beercomments white lighten-1" ng-repeat="beer in BrewsCtrl.beer_comments">
+	<div class="input-field col l2">
+		<input type="checkbox" id="beer{{$index}}" ng-model="BrewsCtrl.fave[$index]"/>
+		<label for="beer{{$index}}">Favorite?</label>
+	</div>
+	<div class="input-field col l10">
+		<input type="text" id="{{beer}}" ng-model="BrewsCtrl.newBeerComments[beer]" required/>
+		<label for="{{beer}}">{{beer}}</label>
+	</div>
+</div>
+<div class="row white lighten-1" ng-hide="!BrewsCtrl.veiledBeers">
+	<div class="input-field col l12">
+		<input type="text" id="{{BrewsCtrl.brewery}}" ng-model="BrewsCtrl.breweryComments"/>
+		<label for="breweryComments">Comments About {{BrewsCtrl.brewery}}</label>
+	</div>
+</div>
+<div class="row" ng-hide="!BrewsCtrl.veiledBeers">
+	<button id="addReview" class="col l6 offset-l3 amber darken-4 waves-effect waves-light btn" ng-click="BrewsCtrl.addVisit()">Log Visit</button>
+</div>

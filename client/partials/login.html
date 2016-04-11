@@ -1,0 +1,24 @@
+<div class="row" id="loginBox">
+	<div class="col l6 push-l3 center-align">
+		<div id="login" class="white-text grey darken-3 hoverable" style="height: 350px">
+			<h4 style="padding: 10px">Login/Register</h4>
+			<div class="row">
+				<div ng-if="UsersCtrl.does_not_exist"><span class="red-text">User does not exist, please register first</span></div>
+				<div class="col l4 offset-l4 input-field">
+					<input id="handle" type="text" class="center-align" ng-model="UsersCtrl.handle" required />
+					<label for="handle" class="center-align" style="position: absolute; left: 24%">Enter Handle</label>
+				</div>
+			</div>
+			<div class="row">
+				<div ng-if="UsersCtrl.exists"><span class="red-text">User already exists, choose another handle</span></div>
+				<a id="loginbtn" class="waves-effect waves-light amber darken-4 btn" ng-click="UsersCtrl.login()"><i class="medium material-icons right">vpn_key</i>Login</a>
+			</div>
+			<div class="row">
+				<span>OR</span>
+			</div>
+			<div class="row">
+				<a id="registerbtn" class="waves-effect waves-light amber darken-4 btn" ng-click="UsersCtrl.register()"><i class="medium material-icons right">perm_identity</i>Register</a>
+			</div>
+		</div>
+	</div>
+</div>
